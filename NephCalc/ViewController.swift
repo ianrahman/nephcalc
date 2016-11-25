@@ -22,10 +22,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        title = "NephCalc"
         navigationController?.navigationBar.topItem?.title = "NephCalc"
-        
-//        navigationController?.color
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor(red: 61/255.0, green: 120/255.0, blue: 189/255.0, alpha: 1.0), NSFontAttributeName: UIFont (name: "AvenirNext-Heavy", size: 30)!]
         
         weightTextField.delegate = self
         fluidTextField.delegate = self

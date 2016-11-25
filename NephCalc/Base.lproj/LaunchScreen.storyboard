@@ -22,9 +22,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="NephCalc" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="50" translatesAutoresizingMaskIntoConstraints="NO" id="8IT-Jm-E4P">
-                                <rect key="frame" x="64" y="156" width="246" height="68.5"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="110"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NephCalc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="8IT-Jm-E4P">
+                                <rect key="frame" x="18.5" y="186" width="337.5" height="96"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="70"/>
                                 <color key="textColor" red="0.23921568630000001" green="0.47058823529999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -32,7 +32,7 @@
                         <color key="backgroundColor" red="1" green="0.97647058819999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="8IT-Jm-E4P" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="QAh-x9-Bf9"/>
-                            <constraint firstItem="8IT-Jm-E4P" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.8" id="mrH-Ai-NPh"/>
+                            <constraint firstItem="8IT-Jm-E4P" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.9" id="mrH-Ai-NPh"/>
                             <constraint firstItem="8IT-Jm-E4P" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-100" id="v1x-m5-rle"/>
                         </constraints>
                     </view>
