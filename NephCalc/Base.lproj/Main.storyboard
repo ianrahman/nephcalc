@@ -108,23 +108,25 @@
                                     <constraint firstItem="ydJ-2Y-nhF" firstAttribute="width" secondItem="CRH-tL-384" secondAttribute="width" id="pC2-Kr-UbO"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lH4-ar-P6i">
-                                <rect key="frame" x="338" y="630" width="22" height="22"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.23921568630000001" green="0.47058823529999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.97647058823529409" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="CRH-tL-384" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="2Dv-gE-uIb"/>
                             <constraint firstItem="CRH-tL-384" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5dQ-7s-9Y0"/>
-                            <constraint firstItem="lH4-ar-P6i" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" constant="-15" id="WgS-UL-oWw"/>
                             <constraint firstItem="CRH-tL-384" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-30" id="cP6-gB-Tfl"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lH4-ar-P6i" secondAttribute="bottom" constant="15" id="e8H-Hk-sHf"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Fyc-R3-Poq"/>
+                    <navigationItem key="navigationItem" id="Fyc-R3-Poq">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="6sc-Xy-PNx">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="lH4-ar-P6i">
+                                <rect key="frame" x="337" y="11" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.23921568630000001" green="0.47058823529999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="calculateButton" destination="0DA-5h-SrF" id="u2e-84-VsF"/>
                         <outlet property="fluidTextField" destination="diy-de-Mx1" id="X6i-kP-5LE"/>
@@ -134,16 +136,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="972" y="38.23088455772114"/>
+            <point key="canvasLocation" x="1127" y="-645"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--NephCalc-->
         <scene sceneID="Ke6-PI-Gih">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sqe-jQ-8bG" sceneMemberID="viewController">
+                <navigationController title="NephCalc" automaticallyAdjustsScrollViewInsets="NO" id="sqe-jQ-8bG" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="niN-IJ-OH0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.97647058819999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

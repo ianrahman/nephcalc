@@ -22,6 +22,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+//        title = "NephCalc"
+        navigationController?.navigationBar.topItem?.title = "NephCalc"
+        
+//        navigationController?.color
+        
         weightTextField.delegate = self
         fluidTextField.delegate = self
         
