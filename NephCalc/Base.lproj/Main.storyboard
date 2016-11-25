@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C41b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sqe-jQ-8bG">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -21,89 +21,110 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="CRH-tL-384">
-                                <rect key="frame" x="15" y="50" width="345" height="442"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="CRH-tL-384">
+                                <rect key="frame" x="15" y="109" width="345" height="357"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NephCalc" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="gSE-OE-ca8">
-                                        <rect key="frame" x="79" y="0.0" width="187" height="52"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="38"/>
-                                        <color key="textColor" red="0.11410372704267502" green="0.36716693639755249" blue="0.57023555040359497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="37.5" y="0.0" width="270.5" height="75.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="55"/>
+                                        <color key="textColor" red="0.23921568627450979" green="0.47058823529411764" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dialysis Fluid Removal Calculator" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="XYN-n3-JHT">
-                                        <rect key="frame" x="33" y="64" width="279.5" height="68.5"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="25"/>
-                                        <color key="textColor" red="0.11410372704267502" green="0.36716693639755249" blue="0.57023555040359497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="42.5" y="95.5" width="260.5" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                        <color key="textColor" red="0.23921568627450979" green="0.47058823529411764" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient Weight (kg)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="Qh7-8J-EPd">
-                                        <rect key="frame" x="65" y="144.5" width="215.5" height="34.5"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-Ow-Plr">
-                                        <rect key="frame" x="122.5" y="191" width="100" height="30"/>
-                                        <color key="backgroundColor" red="0.95679777860641479" green="0.95111984014511108" blue="0.82966423034667969" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="Soi-Xh-0V2"/>
-                                        </constraints>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                    </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fluid to be removed (mL)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="nZp-1H-kMJ">
-                                        <rect key="frame" x="28.5" y="233" width="288" height="34.5"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="diy-de-Mx1">
-                                        <rect key="frame" x="122.5" y="279.5" width="100" height="30"/>
-                                        <color key="backgroundColor" red="0.95679777860641479" green="0.95111984014511108" blue="0.82966423034667969" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="ziB-so-qIe"/>
-                                        </constraints>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ydJ-2Y-nhF">
+                                        <rect key="frame" x="0.0" y="139" width="345" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient Dry Weight (kg)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="Qh7-8J-EPd">
+                                                <rect key="frame" x="0.0" y="0.0" width="245" height="30"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                                <color key="textColor" red="0.23921568630000001" green="0.47058823529999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-Ow-Plr">
+                                                <rect key="frame" x="255" y="0.0" width="90" height="30"/>
+                                                <color key="backgroundColor" red="0.95679777860641479" green="0.95111984014511108" blue="0.82966423034667969" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="90" id="Soi-Xh-0V2"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.23921568630000001" green="0.47058823529999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7qD-Y5-sdf">
+                                        <rect key="frame" x="0.0" y="189" width="345" height="30.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fluid to be Removed (mL)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="nZp-1H-kMJ">
+                                                <rect key="frame" x="0.0" y="1.5" width="245" height="27.5"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                                <color key="textColor" red="0.23921568630000001" green="0.47058823529999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="diy-de-Mx1">
+                                                <rect key="frame" x="255" y="0.5" width="90" height="30"/>
+                                                <color key="backgroundColor" red="0.95679777860641479" green="0.95111984014511108" blue="0.82966423034667969" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="90" id="ziB-so-qIe"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.23921568630000001" green="0.47058823529999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0DA-5h-SrF">
-                                        <rect key="frame" x="122.5" y="321.5" width="100" height="40"/>
-                                        <color key="backgroundColor" red="0.11410372704267502" green="0.36716693639755249" blue="0.57023555040359497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="122.5" y="239.5" width="100" height="40"/>
+                                        <color key="backgroundColor" red="0.23921568630000001" green="0.47058823529999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="u3m-CV-a2T"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                         <state key="normal" title="Calculate">
-                                            <color key="titleColor" red="0.97644144296646118" green="0.97746831178665161" blue="0.92371672391891479" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="1" green="0.97647058819999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="calculateButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BHh-ab-Jhp"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hours of dialysis necessary to remove fluid" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="fao-Kv-mRs">
-                                        <rect key="frame" x="0.0" y="373.5" width="345" height="68.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hours of dialysis necessary to remove gained interdyalitic fluid" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="fao-Kv-mRs">
+                                        <rect key="frame" x="0.0" y="299.5" width="345" height="57.5"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                         </accessibility>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
-                                        <color key="textColor" red="0.11410372704267502" green="0.36716693639755249" blue="0.57023555040359497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
+                                        <color key="textColor" red="0.23921568627450979" green="0.47058823529411764" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="fao-Kv-mRs" firstAttribute="width" secondItem="CRH-tL-384" secondAttribute="width" id="0cN-a6-syN"/>
+                                    <constraint firstItem="7qD-Y5-sdf" firstAttribute="width" secondItem="CRH-tL-384" secondAttribute="width" id="U95-8P-bvU"/>
+                                    <constraint firstItem="ydJ-2Y-nhF" firstAttribute="width" secondItem="CRH-tL-384" secondAttribute="width" id="pC2-Kr-UbO"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lH4-ar-P6i">
+                                <rect key="frame" x="338" y="630" width="22" height="22"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.23921568630000001" green="0.47058823529999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.97644144296646118" green="0.97746831178665161" blue="0.92371672391891479" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.97647058823529409" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="CRH-tL-384" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="2Dv-gE-uIb"/>
+                            <constraint firstItem="CRH-tL-384" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="2Dv-gE-uIb"/>
                             <constraint firstItem="CRH-tL-384" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5dQ-7s-9Y0"/>
+                            <constraint firstItem="lH4-ar-P6i" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" constant="-15" id="WgS-UL-oWw"/>
                             <constraint firstItem="CRH-tL-384" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-30" id="cP6-gB-Tfl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lH4-ar-P6i" secondAttribute="bottom" constant="15" id="e8H-Hk-sHf"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Fyc-R3-Poq"/>
                     <connections>
                         <outlet property="calculateButton" destination="0DA-5h-SrF" id="u2e-84-VsF"/>
                         <outlet property="fluidTextField" destination="diy-de-Mx1" id="X6i-kP-5LE"/>
@@ -113,6 +134,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="972" y="38.23088455772114"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ke6-PI-Gih">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sqe-jQ-8bG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="niN-IJ-OH0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Cgj-K1-mOF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uWo-Ae-PJj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="268" y="-644.52773613193403"/>
         </scene>
     </scenes>
 </document>
